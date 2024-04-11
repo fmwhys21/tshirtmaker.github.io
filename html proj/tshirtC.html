@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Evan O'Neill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirt Makers Company</title>
+    <link rel="stylesheet" href="tshirtcss.css">
+    <script>
+        function showAlert() {
+            alert("Thanks For The Message!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to T-Shirt Makers Company</h1>
+    </header>
+    <nav>
+        <a href="tshirtH.html">Home</a>
+        <!-- link to home page-->
+        <a href="tshirtS.html">Shop</a>
+        <!--link to shop page-->
+        <a href="tshirtAU.html">About Us</a>
+        <!--link to about us page-->
+        <a href="tshirtC.html">Contact</a>
+        <!--Link to contact page-->
+        <!-- menu for all pages-->
+    </nav>
+    <section>
+        <h2>Contact Us</h2>
+        <p>Have a question or want to place a custom order? Reach out to us!</p>
+        <p>Email: tshirtmakers@gmail.com</p>
+        <p>Phone: 087 432 3244</p>
+    </section>
+    <form action=""  onsubmit="confirmInput()"  method="post" class="formd">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" >
+        <br>
+
+        <label for="email">Your Email:  </label><br>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <br>
+
+        
+            <button id="fname" type="text" size="25" onclick="showAlert()">Submit</button>
+          
+    </form><br><br><br><br><br>
+    </section>
+    <footer>
+        <p>&copy; 2024 T-Shirt Makers Company. All rights reserved.</p>
+        <!-- This is for copyright and footer for bottom of page-->
+    </footer>
+</body>
+</html>
